@@ -1,4 +1,4 @@
-function [gamma_tilde, gamma_post_draws] = GA_toolkit(B,D_tilde)
+function [gamma_tilde, gamma_post_draws] = GA_toolkit(B,theta,D_tilde)
 % Input: 
 %   B: number of posterior draws to produce
 %   theta: structural paramater
