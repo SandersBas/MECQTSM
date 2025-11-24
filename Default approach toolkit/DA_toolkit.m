@@ -1,4 +1,4 @@
-function [gamma_tilde, gamma_post_draws] = DA_toolkit(B,F_tilde,p,b,ME_var,P_mu,P_var)
+function [gamma_tilde, gamma_post_draws] = DA_toolkit(B,theta,F_tilde,p,b,ME_var,P_mu,P_var)
 % Input: 
 %   B: number of posterior draws to produce
 %   theta: structural parameter
